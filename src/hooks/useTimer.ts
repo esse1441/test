@@ -4,7 +4,7 @@ interface ITimer {
   delay: number;
 }
 
-export const useTimer = ({ delay }: ITimer) => {
+export const useTimer = ({ delay }: ITimer): number => {
   const [step, setStep] = useState(0);
 
   useEffect(() => {

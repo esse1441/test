@@ -10,7 +10,11 @@ interface ICounter {
   duration: number;
 }
 
-export const useCounter = ({ targetNum, startNum, duration }: ICounter) => {
+export const useCounter = ({
+  targetNum,
+  startNum,
+  duration,
+}: ICounter): number => {
   const [count, setCount] = useState(startNum);
   const frameRate = 1000 / 60;
   const totalFrame = Math.round(duration / frameRate);

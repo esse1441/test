@@ -4,7 +4,7 @@ import { useTimer } from '../../hooks';
 import styles from './Statistics.module.css';
 
 export const Statistics = () => {
-  const timer = useTimer({ delay: 400 });
+  const timer = useTimer({ delay: 300 });
 
   return (
     <div className={styles.section_container}>

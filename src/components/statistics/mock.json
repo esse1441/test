@@ -1,3 +1,8 @@
 {
-  "data": { "users": 350, "reviews": 21, "saves": 650 }
+  "totalCount": 3,
+  "data": [
+    { "num": 350, "unit": "만 명", "desc": "의 사용자" },
+    { "num": 21, "unit": "만 개", "desc": "의 리뷰" },
+    { "num": 650, "unit": "만 개", "desc": "의 저장" }
+  ]
 }
